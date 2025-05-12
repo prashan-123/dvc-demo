@@ -1,1 +1,4 @@
 dvc remote add -d myremote C:\Users\prash\AppData\Local\Temp\prasann
+
+# to send this to staging area like git add .
+dvc add data/customer.csv [cache file create in .dvc folder, in gitignore /customer.csv file created,data/customer.csv.dvc file created]
